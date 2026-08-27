@@ -1,0 +1,44 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.Python
+venv/
+env/
+*.env
+.env
+staticfiles/
+media/
+*.sqlite3
+db.sqlite3
+
+# ML Models (large binary files)
+backend/ml_models/*.joblib
+backend/ml_models/*.pkl
+
+# Node / React
+node_modules/
+dist/
+.vite/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V5
+.Trashes
+ehthumbs.db

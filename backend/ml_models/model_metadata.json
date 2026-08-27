@@ -1,0 +1,31 @@
+{
+  "category_model": "Logistic Regression",
+  "category_f1": 0.9826,
+  "severity_model": "Logistic Regression",
+  "severity_f1": 0.9304,
+  "calibrated": true,
+  "categories": [
+    "DDoS",
+    "Data Breach",
+    "Insider Threat",
+    "Malware",
+    "Phishing",
+    "Ransomware",
+    "Social Engineering",
+    "Unauthorized Access"
+  ],
+  "severities": [
+    "Critical",
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "training_samples": 800,
+  "samples_per_category": 100,
+  "tfidf_features": 7026,
+  "notes": {
+    "category": "Trained ML classifier - Scikit-Learn, cross-validated, calibrated",
+    "severity": "Text-based severity ESTIMATION to assist analysts. Human review mandatory for High/Critical.",
+    "confidence": "CalibratedClassifierCV applied. Label as Model Confidence, not Accuracy."
+  }
+}
