@@ -149,7 +149,7 @@ Frontend running at: **http://localhost:5173**
 
 ---
 
-### Demo Login Credentials (seeded by seed_data)
+### Demo Login Credentials (seeded by seed_data) -Not used in production
 
 | Email | Password | Role |
 |-------|----------|------|
